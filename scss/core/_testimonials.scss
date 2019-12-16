@@ -1,0 +1,121 @@
+/* Block Testi-slider
+-------------------------------------------------------------------------------*/
+
+.testimonials {
+  padding-top: 143px;
+  padding-bottom: 152px;
+  background: rgba(38, 39, 50, 0.85);
+}
+
+.testi-slider__feedbacks {
+  img {
+    display: inline-block;
+  }
+  picture{
+    display: inline-block;
+  }
+}
+
+.detals {
+  position: relative;  
+  margin-top: 40px;
+  padding: 41px 76px 36px 55px;
+  border-bottom: 3px solid #fc5f45;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 66.3%;
+  float: right;
+  @extend %clear_a;
+  &__text {    
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+}
+
+.signature {
+  margin-top: 29px;
+  color: #272727;
+  font-family: Sacramento;
+  font-size: 40px;
+  font-weight: 400;
+
+  &__title {
+    margin-top: 5px;
+    color: #272727;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__subtitle {
+    margin-top: 6px;
+    color: #fc5f45;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.details__quote {
+  font-family: "Libre Baskerville";
+  font-size: 400px;
+  color: #e0e0e0;
+  opacity: 0.3;
+  position: absolute;
+  top: -48px;
+  left: -5px;
+}
+
+.slick-dots {
+  display: block;
+  list-style: none;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  right: 0;
+  bottom: 10px;
+  li {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    &:last-child{
+      margin-right: 0;
+    }
+    button {
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      width: 18px;
+      height: 18px;
+      padding: 5px;
+      cursor: pointer;
+      color: transparent;
+      border: 0;
+      outline: none;
+      background: transparent;
+      &:before {
+        font-family: "slick";
+        // font-size: 6px;
+        // line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 18px;
+        content: url("../svg/Alexis-svg/dots.svg");
+        text-align: center;
+        // opacity: 0.5;
+        // color: #ffffff;         
+      }
+    }
+  }
+  li.slick-active button:before{
+    content: url("../svg/Alexis-svg/dots-activ.svg");
+    opacity: 1;
+  }
+}

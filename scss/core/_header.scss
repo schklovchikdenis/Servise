@@ -1,0 +1,98 @@
+/* Block Header
+-------------------------------------------------------------------------------*/
+.header__top {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+  padding: 24px 0;
+
+  @media (max-width: 991px) {
+    padding: 12px;
+  }
+}
+
+.headerTop__content {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 991px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 320px) {
+    justify-content: flex-end;
+  }
+}
+
+/*Block features ----------------------------------------------------------------------------*/
+
+.features {
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 239px;
+  padding-bottom: 173px;
+
+  @media (max-width: 991px) {
+    padding: 100px 0px;
+  }
+
+  &__box {
+    // border:1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 750px;
+    padding-left: 20px;
+    margin: auto;
+
+    @media (max-width: 640px) {
+      padding-left: 10px;
+    }
+    @media (max-width: 450px) {
+      flex-direction: column;
+    }
+  }
+
+  &__item:nth-child(2) {
+    margin: 0 70px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &.color-red {
+      color: #38c695;
+    }
+
+    &.color-violet {
+      color: #b27cf5;
+    }
+
+    &.color-orange {
+      color: #feb960;
+    }
+  }
+}
+
+.icon-header-dollar {
+  color: #38c695;
+}
+
+.icon-header-time {
+  color: #b27cf5;
+}
+
+.icon-header-check {
+  color: #feb960;
+}
+
+.icon-header-dollar,
+.icon-header-time,
+.icon-header-check {
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 34px;
+}

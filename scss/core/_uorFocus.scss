@@ -1,0 +1,142 @@
+/* Block Uor-focus
+-------------------------------------------------------------------------------*/
+.uorFocus {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 150px;
+}
+
+.services {
+  font-size: 0;
+  letter-spacing: -1px;
+  margin-left: -30px; //отступы между плитками
+
+  @media (min-width: 850px) {
+    margin-left: -10px;
+  }
+  @media (min-width: 1000px) {
+    margin-left: -30px;
+  }
+
+  &__wrapp {
+    font-size: initial;
+    letter-spacing: initial;
+    display: inline-block;
+    width: 25%; //количество колонок
+    padding-left: 30px; //отступы между плитками
+
+    @media (min-width: 250px) {
+      width: 100%;
+    }
+
+    @media (min-width: 370px) {
+      width: 70%;
+    }
+
+    @media (min-width: 480px) {
+      width: 45%;
+    }
+    @media (min-width: 630px) {
+      width: 50%;
+    }
+    @media (min-width: 690px) {
+      width: 40%;
+    }
+
+    @media (min-width: 850px) {
+      width: 25%;
+      padding-left: 10px; 
+    }
+
+    @media (min-width: 1000px) {
+      width: 25%;
+      padding-left: 30px; 
+    }
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 59px 31px 59px 32px;
+    background: #ffffff;
+    @media (min-width: 850px) {
+      padding: 59px 20px 59px 20px;
+    }
+  }
+}
+
+.icon-focus-web-design {
+  font-size: 52px;
+  color: #fc5f45;
+}
+
+.icon-focus-web-ui {
+  font-size: 52px;
+  color: #38c695;
+}
+
+.icon-focus-foto {
+  font-size: 52px;
+  color: #b27cf5;
+}
+
+.icon-focus-app {
+  font-size: 50px;
+  color: #feb960;
+}
+
+.redLine {
+  border-bottom: 3px solid #fc5f45;
+}
+
+.greenLine {
+  border-bottom: 3px solid #38c695;
+}
+
+.violetLine {
+  border-bottom: 3px solid #b27cf5;
+}
+
+.orangeLine {
+  margin-right: 0px;
+  border-bottom: 3px solid #feb960;
+}
+
+// @media (max-width: 991px) {
+//   .uorFocus {
+//     padding: 100px 0;
+//   }
+
+//   .services__wrapp {
+//     width: 35%;
+//     margin-bottom: 30px;
+//   }
+// }
+
+// @media (max-width: 767px) {
+//   .services__wrapp {
+//     width: 40%;
+//     // margin-bottom: 30px;
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   .services__wrapp {
+//     width: 75%;
+//   }
+// }
+// @media (max-width: 430px) {
+//   .services__wrapp {
+//     width: 100%;
+//   }
+// }
+
+// @media (max-width: 767px) {
+
+//   services__wrapp {
+//     width: 50%;
+//     margin-bottom: 30px;
+//   }
+// }
+
+/*end block uorfocus*/
