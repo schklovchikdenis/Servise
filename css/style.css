@@ -461,7 +461,7 @@ ol[class] {
 /* Основные настройки сайта
 -------------------------------------------------------------------------------*/
 body {
-  max-width: 100%; }
+  max-width: 1280px; }
 
 .container_center {
   max-width: 1170px;
@@ -3378,7 +3378,8 @@ select.uk-form-width-xsmall {
 .uk-card {
   position: relative;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #000; }
 
 /* Sections
  ========================================================================== */
