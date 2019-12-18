@@ -1,0 +1,16 @@
+.uk-navbar-container {
+  padding: 15px 20px;
+}
+.close {
+  color: #0777ba;  
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid #0777ba;
+  padding: 0;
+  line-height: 1;
+  padding: 11px 20px 14px;
+  &:hover{
+      color:#fff;
+      background-color:#0777ba ;
+  }
+}

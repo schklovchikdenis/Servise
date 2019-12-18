@@ -48,7 +48,7 @@ html {
 body {
   margin: 0;
   font-size: 100%;
-  font-family: "Open Sans";
+  font-family: "PT Sans Caption";
   color: #000;
   line-height: 1.2; }
 
@@ -470,10 +470,17 @@ body {
   margin: 0 auto; }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../fonts/Poppins-Medium.eot");
-  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
-  font-weight: 500;
+  font-family: 'PT Sans Caption';
+  src: url("../fonts/PTSans-Caption.eot");
+  src: url("../fonts/PTSans-Caption.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Caption.woff2") format("woff2"), url("../fonts/PTSans-Caption.woff") format("woff"), url("../fonts/PTSans-Caption.ttf") format("truetype"), url("../fonts/PTSans-Caption.svg#PTSans-Caption") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PT Sans Caption';
+  src: url("../fonts/PTSans-CaptionBold.eot");
+  src: url("../fonts/PTSans-CaptionBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-CaptionBold.woff2") format("woff2"), url("../fonts/PTSans-CaptionBold.woff") format("woff"), url("../fonts/PTSans-CaptionBold.ttf") format("truetype"), url("../fonts/PTSans-CaptionBold.svg#PTSans-CaptionBold") format("svg");
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -10331,3 +10338,18 @@ iframe.uk-cover {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.uk-navbar-container {
+  padding: 15px 20px; }
+
+.close {
+  color: #0777ba;
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid #0777ba;
+  padding: 0;
+  line-height: 1;
+  padding: 11px 20px 14px; }
+  .close:hover {
+    color: #fff;
+    background-color: #0777ba; }
