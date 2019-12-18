@@ -21,10 +21,10 @@
   color: #000;
 }
 
-// @mixin hook-navbar-container() {
-//   background: rgb(189, 152, 152);
-//   padding: 15px 20px;
-// }
+@mixin hook-navbar-container() {
+  background: rgb(189, 152, 152);
+  
+}
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit.scss";
