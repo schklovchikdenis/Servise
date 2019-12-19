@@ -1,18 +1,26 @@
-.uk-navbar-container {
-  padding: 15px 20px;
-  align-items: center;
+/* navbar */
+
+.header-top {
+  position: fixed;
+  width: 100%;
 }
-.close {
-  color: #0777ba;
-  font-size: 15px;
-  font-weight: 400;
-  border: 2px solid #0777ba;
+
+.uk-navbar {
+  padding: 15px 20px;
+}
+
+.login {
   padding: 0;
   line-height: 1;
-  padding: 11px 20px 14px;
-  &:hover {
-    color: #fff;
-    background-color: #0777ba;
+  padding: 11px 24px 14px;
+  border: 2px solid #0777ba;
+  color: #0777ba;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  &:hover{
+      color:#fff;
+      background-color: #0777ba;
   }
 }
 
@@ -22,4 +30,5 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
+  cursor: pointer;
 }

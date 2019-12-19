@@ -1,14 +1,15 @@
 /* Основные настройки сайта
 -------------------------------------------------------------------------------*/
 body {
-  max-width: $container_width;
+  max-width: 100%;
   // min-width: 300px;
+  
+}
+.main{
+  max-width: 1280px;
+  margin: 0 auto;  
 }
 
-.container_center {
-  max-width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+.container_center{
+  max-width: 1280px;  
 }
-

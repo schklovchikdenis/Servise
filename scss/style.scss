@@ -22,7 +22,7 @@
 }
 
 @mixin hook-navbar-container() {
-  background: rgb(189, 152, 152);
+  background: #fff;
   
 }
 
@@ -31,3 +31,15 @@
 
 
 @import "core/navbar";
+
+
+
+
+
+
+.header-bottom{
+  height: 3000px;
+  background: url('../img/bg.png') no-repeat center center;
+  background-size: cover;
+}
+
