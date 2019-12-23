@@ -11024,7 +11024,24 @@ iframe.uk-cover {
 
 /* Settings modal window "Login" */
 .uk-modal-close-outside {
-  top: 24px; }
+  top: 30px;
+  right: -10px; }
+  .uk-modal-close-outside svg {
+    width: 21px;
+    height: 21px; }
+
+.modal-title-login {
+  line-height: 1;
+  font-size: 1rem;
+  display: inline-block; }
+  .modal-title-login p {
+    margin-bottom: 0px; }
+
+.uk-modal-dialog {
+  width: 350px; }
+
+.uk-input-password {
+  font-size: 18px; }
 
 .header-bottom {
   height: 3000px;

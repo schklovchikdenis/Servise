@@ -1,5 +1,30 @@
 /* Settings modal window "Login" */
 
 .uk-modal-close-outside {
-  top: 24px;
+  top: 30px;
+  right: -10px;
+  svg {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+
+.modal-title-login {
+  line-height: 1;
+  font-size: 1rem;
+  display: inline-block;
+  p {
+    margin-bottom: 0px;
+  }
+}
+// .form-modal-login{
+//     max-width: 100px;
+// }
+.uk-modal-dialog{
+    width: 350px;
+}
+
+.uk-input-password{
+    font-size: 18px;
 }
