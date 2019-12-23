@@ -11022,6 +11022,10 @@ iframe.uk-cover {
   line-height: 27px;
   cursor: pointer; }
 
+/* Settings modal window "Login" */
+.uk-modal-close-outside {
+  top: 24px; }
+
 .header-bottom {
   height: 3000px;
   background: url("../img/bg.png") no-repeat center center;
