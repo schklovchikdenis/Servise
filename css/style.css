@@ -611,6 +611,7 @@ body {
   margin-left: -1em;
   color: none; }
 
+/* Settings UIkit */
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -10993,7 +10994,7 @@ iframe.uk-cover {
   h3 {
     page-break-after: avoid; } }
 
-/* avbar */
+/* Navbar */
 .header-top {
   position: fixed;
   width: 100%; }

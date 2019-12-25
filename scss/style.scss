@@ -9,6 +9,8 @@
 @import "fonts/fonts";
 @import "icon/icon";
 
+/* Settings UIkit */
+
 // 1. Your custom variables and variable overwrites.
 // $global-link-color: #DA7D02;
 
@@ -25,7 +27,6 @@
   background: #fff;
   
 }
-
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit.scss";
