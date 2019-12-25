@@ -24,19 +24,27 @@
 						<div id="modal-close-outside" class="uk-flex-top" uk-modal>
 							<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
 								<button class="uk-modal-close-outside" type="button" uk-close></button>
-								<h3 class="uk-modal-modal modal-title-login"><p>Введите логин и пароль для входа</p>
-								в Личный кабинет</h3>
+								<h3 class="uk-modal-modal modal-title-login">Введите логин и пароль для входа
+									в Личный кабинет</h3>
 								<form id="form-modal-login" class="form-modal-login">
-								
+
 									<div class="uk-margin">
-										<input class="uk-input uk-input-password" type="text" placeholder="Логин">
+										<input class="uk-input uk-input-login" type="text" placeholder="Логин">
 									</div>
-								
+
 									<div class="uk-margin">
-										<input class="uk-input" type="text" placeholder="Пароль">
-									</div>	
+										<input class="uk-input uk-input-password" type="text" placeholder="Пароль">
+									</div>
 
 									<button class="uk-button uk-button-login" type="submit">Войти</button>
+
+									<div class="forgot-password">
+										<a href="#" class="forgot-password__link">Забыли пароль?</a>
+									</div>
+
+									<div class="registration">
+										<a href="#" class="registration__link">Регистрация</a>
+									</div>
 								</form>
 							</div>
 						</div>
@@ -48,6 +56,14 @@
 						<div class="uk-navbar-right">
 
 							<p class="help">Помощь</p>
+							<div uk-dropdown="mode: click">
+								<ul class="uk-nav uk-dropdown-nav">
+									<!-- <li class="uk-active"><a href="#">Active</a></li> -->
+									<li><a href="#">Как это работает</a></li>
+									<li><a href="#">Вопрос-ответ</a></li>
+									<li><a href="#">Служба поддержки</a></li>									
+								</ul>
+							</div>
 
 						</div>
 					</nav>
