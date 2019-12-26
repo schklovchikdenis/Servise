@@ -9,7 +9,6 @@
   padding: 15px 20px;
 }
 
-
 /* Button Login */
 
 .login {
@@ -21,9 +20,9 @@
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  &:hover{
-      color:#fff;
-      background-color: #0777ba;
+  &:hover {
+    color: #fff;
+    background-color: #0777ba;
   }
 }
 
@@ -35,4 +34,30 @@
   font-weight: 400;
   line-height: 27px;
   cursor: pointer;
+  position: relative;
+}
+
+.dropdown-help {
+  box-shadow: 0 -4px 5px 0 rgba(70, 79, 87, 0.1);
+  background-color: #ffffff;
+  padding: 0;
+  &__link {
+    color: #0777ba;
+    font-family: "PT Sans - Caption";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: underline;
+  }
+}
+.dropdown-help:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  bottom: 117px;
+  left: 80%;
 }
