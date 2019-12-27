@@ -468,7 +468,10 @@ body {
   margin: 0 auto; }
 
 .container_center {
-  max-width: 1280px; }
+  max-width: 990px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 @font-face {
   font-family: 'PT Sans Caption';
@@ -10998,6 +11001,8 @@ iframe.uk-cover {
 .header-top {
   position: fixed;
   width: 100%; }
+  .header-top__container {
+    max-width: 1280px; }
 
 .uk-navbar {
   padding: 15px 20px; }
@@ -11055,7 +11060,7 @@ iframe.uk-cover {
     border-right: 10px solid transparent;
     border-bottom: 10px solid #fff;
     bottom: 130px;
-    left: 80%; }
+    left: 77%; }
 
 /* Settings modal window "Login" */
 .uk-modal-dialog {

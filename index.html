@@ -14,17 +14,17 @@
 	<section class="main">
 		<header class="header">
 			<div class="header-top">
-				<div class="container_center">
+				<div class="header-top__container">
 					<nav class="uk-navbar-container" uk-navbar>
 
-<!-- Navbar left ----------------------------------------------------------------------------------------->
+						<!-- Navbar left ----------------------------------------------------------------------------------------->
 
 						<div class="uk-navbar-left">
 							<a class="uk-button uk-button-default login" uk-toggle="target: #modal-close-outside"
 								href="#">Войти</a>
 						</div>
 
-<!-- Modal Login ----------------------------------------------------------------------------------------->
+						<!-- Modal Login ----------------------------------------------------------------------------------------->
 
 						<div id="modal-close-outside" class="uk-flex-top" uk-modal>
 							<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
@@ -34,11 +34,11 @@
 								<form id="form-modal-login" class="form-modal-login">
 
 									<div class="uk-margin">
-										<input class="uk-input uk-input-login" type="text" placeholder="Логин">
+										<input class="uk-input uk-input-login" type="text" required placeholder="Логин">
 									</div>
 
 									<div class="uk-margin">
-										<input class="uk-input uk-input-password" type="text" placeholder="Пароль">
+										<input class="uk-input uk-input-password" type="password" required placeholder="Пароль">
 									</div>
 
 									<button class="uk-button uk-button-login" type="submit">Войти</button>
@@ -54,7 +54,7 @@
 							</div>
 						</div>
 
-<!-- Navbar center --------------------------------------------------------------------------------------->
+						<!-- Navbar center --------------------------------------------------------------------------------------->
 
 						<div class="uk-navbar-center">
 
@@ -62,18 +62,19 @@
 
 						</div>
 
-<!-- Navbar right --------------------------------------------------------------------------------------->
+						<!-- Navbar right --------------------------------------------------------------------------------------->
 
 						<div class="uk-navbar-right">
 
 							<p class="help">Помощь</p>
 
-							<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; mode: click" class="dropdown-help">
+							<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; mode: click"
+								class="dropdown-help">
 								<ul class="uk-nav uk-dropdown-nav">
 									<!-- <li class="uk-active"><a href="#">Active</a></li> -->
 									<li><a href="#" class="dropdown-help__link">Как это работает</a></li>
-									<li><a href="#"class="dropdown-help__link">Вопрос-ответ</a></li>
-									<li><a href="#"class="dropdown-help__link">Служба поддержки</a></li>							
+									<li><a href="#" class="dropdown-help__link">Вопрос-ответ</a></li>
+									<li><a href="#" class="dropdown-help__link">Служба поддержки</a></li>
 								</ul>
 							</div>
 
@@ -82,10 +83,12 @@
 				</div>
 			</div>
 
-<!-- Header bottom --------------------------------------------------------------------------------------->
+			<!-- Header bottom --------------------------------------------------------------------------------------->
 
 			<div class="header-bottom">
-
+				<div class="container_center">
+					
+				</div>
 			</div>
 		</header>
 
