@@ -32,7 +32,7 @@
 @import "uikit/src/scss/uikit.scss";
 
 
-@import "core/navbar";
+@import "core/header";
 @import "core/modal-login";
 
 
@@ -40,12 +40,6 @@
 
 
 
-.header-bottom{
-  background-blend-mode: multiply;
-  height: 400px;  
-  background: url('../img/bg.png') no-repeat center center;
-  background-size: cover;
-  background-color: rgba(7, 70, 241, 0.404);
-}
+
 
 
