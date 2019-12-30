@@ -1,0 +1,36 @@
+/* Title Servise */
+
+.services {
+  padding: 54px 0 71px 0;
+
+  &__block {
+    border: 1px solid red;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 612px;
+  }
+
+  &__title {
+    font-family: $main_font_family;
+    color: #231f20;
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  &__item {
+    display: inline;
+    margin-right: 26px;    
+  }
+
+  &__link {
+    color: #0777ba;
+    // font-family: "PT Sans - Caption";
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover{
+        border-bottom: 1px dotted #0777ba;
+        text-decoration: none;
+    }
+  }
+}

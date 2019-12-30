@@ -10412,7 +10412,7 @@ iframe.uk-cover {
 
 /* Header bottom */
 .header-bottom {
-  padding: 166px 0 115px 0px;
+  padding: 160px 0 115px 0px;
   background-blend-mode: multiply;
   background: url("../img/bg.png") no-repeat center bottom;
   background-size: contain;
@@ -10526,3 +10526,28 @@ iframe.uk-cover {
   .registration__link:hover {
     text-decoration: none;
     border-bottom: 1px dotted #0777ba; }
+
+/* Title Servise */
+.services {
+  padding: 54px 0 71px 0; }
+  .services__block {
+    border: 1px solid red;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 612px; }
+  .services__title {
+    font-family: "PT Sans Caption";
+    color: #231f20;
+    font-size: 36px;
+    line-height: 1; }
+  .services__item {
+    display: inline;
+    margin-right: 26px; }
+  .services__link {
+    color: #0777ba;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none; }
+    .services__link:hover {
+      border-bottom: 1px dotted #0777ba;
+      text-decoration: none; }
