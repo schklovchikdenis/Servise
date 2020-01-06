@@ -4,10 +4,11 @@
   padding: 54px 0 71px 0;
 
   &__block {
-    border: 1px solid red;
+    // border: 1px solid red;
     text-align: center;
     margin: 0 auto;
     max-width: 612px;
+    margin-bottom: 52px;
   }
 
   &__title {
@@ -19,7 +20,7 @@
 
   &__item {
     display: inline;
-    margin-right: 26px;    
+    margin-right: 26px;
   }
 
   &__link {
@@ -28,9 +29,19 @@
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-    &:hover{
-        border-bottom: 1px dotted #0777ba;
+    &:hover {
+      border-bottom: 1px dotted #0777ba;
+      text-decoration: none;
+    }
+    &_black {
+      color: #000000;
+      line-height: 33px;
+      font-size: 18px;
+      
+      &:hover{
         text-decoration: none;
+        color: #000000;
+      }
     }
   }
 }

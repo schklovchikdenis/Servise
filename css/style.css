@@ -11186,10 +11186,10 @@ iframe.uk-cover {
 .services {
   padding: 54px 0 71px 0; }
   .services__block {
-    border: 1px solid red;
     text-align: center;
     margin: 0 auto;
-    max-width: 612px; }
+    max-width: 612px;
+    margin-bottom: 52px; }
   .services__title {
     font-family: "PT Sans Caption";
     color: #231f20;
@@ -11206,3 +11206,10 @@ iframe.uk-cover {
     .services__link:hover {
       border-bottom: 1px dotted #0777ba;
       text-decoration: none; }
+    .services__link_black {
+      color: #000000;
+      line-height: 33px;
+      font-size: 18px; }
+      .services__link_black:hover {
+        text-decoration: none;
+        color: #000000; }
