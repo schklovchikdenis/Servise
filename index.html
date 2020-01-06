@@ -11,101 +11,101 @@
 </head>
 
 <body>
+	<header class="header">
+		<div class="header-top">
+			<div class="header-top__container">
+				<nav class="uk-navbar-container" uk-navbar>
+
+					<!-- Navbar left ----------------------------------------------------------------------------------------->
+
+					<div class="uk-navbar-left">
+						<a class="uk-button uk-button-default login" uk-toggle="target: #modal-close-outside"
+							href="#">Войти</a>
+					</div>
+
+					<!-- Modal Login ----------------------------------------------------------------------------------------->
+
+					<div id="modal-close-outside" class="uk-flex-top" uk-modal>
+						<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+							<button class="uk-modal-close-outside" type="button" uk-close></button>
+							<h3 class="uk-modal-modal modal-title-login">Введите логин и пароль для входа
+								в Личный кабинет</h3>
+							<form id="form-modal-login" class="form-modal-login">
+
+								<div class="uk-margin">
+									<input class="uk-input uk-input-login" type="text" required placeholder="Логин">
+								</div>
+
+								<div class="uk-margin">
+									<input class="uk-input uk-input-password" type="password" required
+										placeholder="Пароль">
+								</div>
+
+								<button class="uk-button uk-button-login" type="submit">Войти</button>
+
+								<div class="forgot-password">
+									<a href="#" class="forgot-password__link">Забыли пароль?</a>
+								</div>
+
+								<div class="registration">
+									<a href="#" class="registration__link">Регистрация</a>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<!-- Navbar center --------------------------------------------------------------------------------------->
+
+					<div class="uk-navbar-center">
+
+						<a class="uk-navbar-item uk-logo" href="#"><img src="img/Logo.webp" alt=""></a>
+
+					</div>
+
+					<!-- Navbar right --------------------------------------------------------------------------------------->
+
+					<div class="uk-navbar-right">
+
+						<p class="help">Помощь</p>
+
+						<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; mode: click"
+							class="dropdown-help">
+							<ul class="uk-nav uk-dropdown-nav">
+								<!-- <li class="uk-active"><a href="#">Active</a></li> -->
+								<li><a href="#" class="dropdown-help__link">Как это работает</a></li>
+								<li><a href="#" class="dropdown-help__link">Вопрос-ответ</a></li>
+								<li><a href="#" class="dropdown-help__link">Служба поддержки</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Header bottom --------------------------------------------------------------------------------------->
+
+		<div class="header-bottom">
+			<div class="container_center">
+				<h1 class="header-bottom__title">
+					Поиск начислений
+				</h1>
+
+				<form action="" id="form-search" class="form-search">
+					<input class="uk-input uk-input-search" type="search" placeholder="Введите данные для поиска">
+
+
+					<button class="uk-button uk-button-search" type="submit">Найти</button>
+				</form>
+
+				<h4 class="header-bottom__subtitle">
+					Чем больше параметров введено, тем полнее результаты поиска
+				</h4>
+
+			</div>
+		</div>
+	</header>
 	<section class="main">
-		<header class="header">
-			<div class="header-top">
-				<div class="header-top__container">
-					<nav class="uk-navbar-container" uk-navbar>
-
-						<!-- Navbar left ----------------------------------------------------------------------------------------->
-
-						<div class="uk-navbar-left">
-							<a class="uk-button uk-button-default login" uk-toggle="target: #modal-close-outside"
-								href="#">Войти</a>
-						</div>
-
-						<!-- Modal Login ----------------------------------------------------------------------------------------->
-
-						<div id="modal-close-outside" class="uk-flex-top" uk-modal>
-							<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-								<button class="uk-modal-close-outside" type="button" uk-close></button>
-								<h3 class="uk-modal-modal modal-title-login">Введите логин и пароль для входа
-									в Личный кабинет</h3>
-								<form id="form-modal-login" class="form-modal-login">
-
-									<div class="uk-margin">
-										<input class="uk-input uk-input-login" type="text" required placeholder="Логин">
-									</div>
-
-									<div class="uk-margin">
-										<input class="uk-input uk-input-password" type="password" required
-											placeholder="Пароль">
-									</div>
-
-									<button class="uk-button uk-button-login" type="submit">Войти</button>
-
-									<div class="forgot-password">
-										<a href="#" class="forgot-password__link">Забыли пароль?</a>
-									</div>
-
-									<div class="registration">
-										<a href="#" class="registration__link">Регистрация</a>
-									</div>
-								</form>
-							</div>
-						</div>
-
-						<!-- Navbar center --------------------------------------------------------------------------------------->
-
-						<div class="uk-navbar-center">
-
-							<a class="uk-navbar-item uk-logo" href="#"><img src="img/Logo.webp" alt=""></a>
-
-						</div>
-
-						<!-- Navbar right --------------------------------------------------------------------------------------->
-
-						<div class="uk-navbar-right">
-
-							<p class="help">Помощь</p>
-
-							<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; mode: click"
-								class="dropdown-help">
-								<ul class="uk-nav uk-dropdown-nav">
-									<!-- <li class="uk-active"><a href="#">Active</a></li> -->
-									<li><a href="#" class="dropdown-help__link">Как это работает</a></li>
-									<li><a href="#" class="dropdown-help__link">Вопрос-ответ</a></li>
-									<li><a href="#" class="dropdown-help__link">Служба поддержки</a></li>
-								</ul>
-							</div>
-
-						</div>
-					</nav>
-				</div>
-			</div>
-
-			<!-- Header bottom --------------------------------------------------------------------------------------->
-
-			<div class="header-bottom">
-				<div class="container_center">
-					<h1 class="header-bottom__title">
-						Поиск начислений
-					</h1>
-
-					<form action="" id="form-search" class="form-search">
-						<input class="uk-input uk-input-search" type="search" placeholder="Введите данные для поиска">
-
-
-						<button class="uk-button uk-button-search" type="submit">Найти</button>
-					</form>
-
-					<h4 class="header-bottom__subtitle">
-						Чем больше параметров введено, тем полнее результаты поиска
-					</h4>
-
-				</div>
-			</div>
-		</header>
 
 		<section id="services" class="services">
 			<div class="services__block">
