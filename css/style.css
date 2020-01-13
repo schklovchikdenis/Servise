@@ -11213,3 +11213,20 @@ iframe.uk-cover {
       .services__link_black:hover {
         text-decoration: none;
         color: #000000; }
+
+.fine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .fine__wrapper .subtitle-block {
+    text-transform: uppercase;
+    color: red; }
+  .fine__wrapper .text-block {
+    max-width: 650px;
+    margin-right: 10px; }
+  .fine__img {
+    background-blend-mode: multiply;
+    background: url(/img/img-block-1.webp) no-repeat;
+    background-color: rgba(0, 70, 133, 0.51);
+    width: 310px;
+    overflow: hidden; }

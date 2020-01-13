@@ -37,11 +37,66 @@
       color: #000000;
       line-height: 33px;
       font-size: 18px;
-      
-      &:hover{
+
+      &:hover {
         text-decoration: none;
         color: #000000;
       }
     }
   }
+}
+
+.fine {
+  display: flex;
+  // font-size: 0;
+  // letter-spacing: -1px;
+  // margin-left: -px; //отступы между плитками
+
+  &__wrapper {
+    // font-size: initial;
+    // letter-spacing: initial;
+    // display: inline-block;
+    // width: 50%; //количество колонок
+    // padding-left: px; //отступы между плитками
+    .subtitle-block {
+      text-transform: uppercase;
+      color: red;
+    }
+    .title-block {
+    }
+    .text-block {
+      max-width: 650px;
+      margin-right: 10px;
+    }
+    .duty__link {
+      &:hover {
+      }
+      &:active {
+      }
+      &:focus {
+      }
+    }
+    .fine__link {
+      &:hover {
+      }
+      &:active {
+      }
+      &:focus {
+      }
+    }
+    p {
+    }
+  }
+  &__img {
+    background-blend-mode: multiply;
+    background: url(/img/img-block-1.webp) no-repeat;
+    background-color: rgba(0, 70, 133, 0.51);
+    width: 310px;
+    overflow: hidden;
+    // height: 250px;
+    img {
+    }
+  }
+}
+#duty.duty {
 }
